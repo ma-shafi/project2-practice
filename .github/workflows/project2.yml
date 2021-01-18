@@ -45,5 +45,4 @@ jobs:
       - name: deployment on surge
         run: surge ./build project2-practice.surge.sh --token ${{ secrets.SURGE_TOKENN }}
         
-          echo Add other actions to build,
-          echo test, and deploy your project.
+         
